@@ -5,6 +5,6 @@ COPY . .
 # install node dependencies with npm
 RUN npm install
 # Expose correct port
-EXPOSE 3000
+EXPOSE 5000
 # Create an entrypoint
 ENTRYPOINT ["node", "index.js"]
