@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Deploy'){
             steps {
-                sh "docker run -d -p 5500:5500 --name node-app express-app"
+                sh "docker run -d -p 3000:3000 --name node-app express-app"
             }
         }
     }
